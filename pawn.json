@@ -1,0 +1,21 @@
+{
+    "user": "GfGfGfAs",
+    "repo": "anti-raksamp",
+    "resources": [
+        {
+            "name": "linux.tar.gz",
+            "platform": "linux",
+            "archive": true,
+            "plugins": ["plugins/samp_akm.so"]
+        },
+        {
+            "name": "win.zip",
+            "platform": "windows",
+            "archive": true,
+            "plugins": ["plugins/samp_akm.dll"]
+        }
+    ],
+    "runtime": {
+        "plugins": ["GfGfGfAs/anti-raksamp"]
+    }
+}
